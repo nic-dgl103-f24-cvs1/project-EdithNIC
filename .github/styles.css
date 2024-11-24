@@ -1,0 +1,260 @@
+/* General styles */
+html {
+  font-size: 62.5%;
+  height: 100%;
+  background-color: #e9e9e9;
+}
+
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 2%;
+  margin-top: 0%;
+  height: auto;
+
+  font-family: "Ubuntu", sans-serif;
+  height: 100%;
+  background-color: #5c8039;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #e9e9e9;
+}
+section {
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+p {
+  padding: 2%;
+}
+header {
+  font-family: "Ubuntu", serif;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header img {
+  margin: 1%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 15px;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-color: #5c8039;
+  margin: 0%;
+}
+
+/* TYPOGRAPHIE */
+.ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/* styling of section hero */
+
+.Hero {
+  height: 50vh;
+  background-image: url("/images/103_hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.Hero h1 {
+  font-size: 6.2rem;
+  margin-bottom: 1rem;
+}
+
+.Hero p {
+  font-size: 1.8rem;
+
+  justify-content: left;
+}
+/* styling of section welcome */
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome h2 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-top: 4%;
+}
+.welcome h3 {
+  text-align: center;
+  font-size: 2.4rem;
+}
+.welcome p {
+  line-height: 2.4rem;
+  justify-content: left;
+  width: 90%;
+}
+.welcome img {
+  align-content: center;
+  padding-top: 4%;
+}
+
+/* styling of section how it works */
+
+.How-it-works {
+  color: #494848;
+}
+
+.How-it-works h2 {
+  color: #e9e9e9;
+  text-align: center;
+  font-size: 3.2rem;
+  margin-top: 4%;
+}
+
+.how-it-work_card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card_step1 {
+  background-color: #9eb388;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  width: 300px;
+}
+
+.card_step2 {
+  background-color: #9eb388;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  width: 300px;
+}
+
+.card_step3 {
+  background-color: #9eb388;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  width: 300px;
+}
+
+/* styling of section pre-order */
+.pre-order {
+  background-color: #b99573;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  width: 80%;
+  margin: 10%;
+}
+
+.pre-order h3 {
+  margin: 5%;
+  color: #494848;
+}
+.pre-order p {
+  color: #494848;
+}
+
+.pre-order_button {
+  background-color: #5c8039;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* styling of section Visit Us Today */
+.visit-us {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  height: auto;
+}
+.visit-us h2 {
+  text-align: center;
+  margin: 0%;
+}
+.Map-navigation p {
+  width: 80%;
+  text-align: center;
+}
