@@ -35,11 +35,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Ubuntu", serif;
+  font-family: "Poppins", serif;
   font-weight: 400;
 }
 header {
-  font-family: "Ubuntu", serif;
+  font-family: "Poppins", serif;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -493,4 +493,20 @@ footer nav ul li a {
 } */
 .Hero.stay-connected {
   background-image: url("/images/Happy_Senior_Woman_Posing_In_Garden_original_605354.jpg");
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-media img {
+  margin-top: 4%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media p {
+  text-align: justify;
+  width: 70%;
 }
