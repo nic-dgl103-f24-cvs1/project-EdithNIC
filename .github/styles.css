@@ -417,6 +417,17 @@ p {
   align-content: center;
 }
 
+.card-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
 /* styling of section pre-order */
 .pre-order {
   background-color: #0c450d;
@@ -453,6 +464,10 @@ p {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.pre-order_button:hover {
+  background-color: #e9e9e9; /* Darkens the button on hover */
+  color: #0c450d;
+}
 .end-of-page {
   color: #0c450d;
   font-size: 1.8rem;
@@ -473,11 +488,6 @@ p {
 .visit-us p {
   text-align: center;
 }
-/* .container {
-  width: 80%;
-  height: auto;
-  display: flex;
-} */
 
 .container iframe {
   width: 40%;
@@ -569,6 +579,67 @@ footer nav ul li a {
   font-size: 1.2rem;
 }
 
+.email h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.email__container {
+  position: relative;
+  z-index: 10;
+  background-color: #5c8039;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+}
+
+.form-text-container {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.simple-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.simple-form button {
+  padding: 10px;
+  background-color: white;
+  color: green;
+  border: none;
+  width: 50%;
+  display: block;
+
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.simple-form button:hover {
+  background-color: #0c450d;
+  color: #e9e9e9;
+}
+.simple-form input[type="text"],
+.simple-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.simple-form textarea {
+  width: 100%;
+  height: 100px;
+}
+
 /* CSS styles sheet for Stay.connected */
 
 .Hero.stay-connected {
@@ -614,6 +685,42 @@ footer nav ul li a {
   text-align: left;
 }
 
+/* CSS styles sheet for table */
+table p {
+  color: #0c450d;
+}
+table td {
+  color: #e9e9e9;
+}
+.more-about h2 {
+  font-size: 4.2rem;
+}
+.more-about {
+  margin-top: 5%;
+  text-align: left;
+}
+.more-about p {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.back-link {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5%;
+}
+
+.back-link:hover {
+  background-color: #0c450d;
+}
 @media (min-width: 500px) and (max-width: 768px) {
   header nav a {
     font-size: 1.4rem;
