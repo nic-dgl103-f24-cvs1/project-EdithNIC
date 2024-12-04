@@ -167,6 +167,21 @@ main::before {
   font-weight: 700;
   font-style: italic;
 }
+/* styling of section header */
+.logo {
+  width: 8%;
+}
+/* styling of images */
+.welcome-photo_content {
+  width: 20%;
+}
+.welcome-photo_content_sprout {
+  width: 23%;
+}
+
+.welcome-image-content {
+  width: 27%;
+}
 /* styling of section hero */
 
 .Hero {
@@ -327,8 +342,6 @@ main::before {
   padding: 0%;
 }
 .honour-system-text-container {
-  /* column-count: 2;
-  column-gap: 1.5rem; */
   text-align: justify;
   padding: 8%;
 }
@@ -438,7 +451,9 @@ p {
   width: 80%;
   margin: 10%;
 }
-
+.pre-order a {
+  text-decoration: none;
+}
 .pre-order h3 {
   margin: 2%;
   color: #e9e9e9;
@@ -446,8 +461,6 @@ p {
 }
 .pre-order p {
   color: #e9e9e9;
-  /* column-count: 2;
-  column-gap: 1.5rem; */
   text-align: center;
   padding: 4%;
   margin-bottom: 4%;
@@ -465,7 +478,7 @@ p {
   transition: background-color 0.3s ease;
 }
 .pre-order_button:hover {
-  background-color: #e9e9e9; /* Darkens the button on hover */
+  background-color: #e9e9e9;
   color: #0c450d;
 }
 .end-of-page {
@@ -692,21 +705,29 @@ table p {
 table td {
   color: #e9e9e9;
 }
+
+th,
+td {
+  border: 1px solid white;
+}
 .more-about h2 {
   font-size: 4.2rem;
+  text-align: left;
 }
 .more-about {
   margin-top: 5%;
-  text-align: left;
 }
 .more-about p {
-  text-align: left;
   font-size: 1.6rem;
   line-height: 2.2rem;
+  text-align: left;
+}
+.more-about a {
+  margin-bottom: 20%;
 }
 .back-link {
-  display: inline-block;
-  padding: 20px 30px;
+  display: block;
+  padding: 20px 10px;
   background-color: #0056b3;
   color: white;
   text-decoration: none;
@@ -721,6 +742,25 @@ table td {
 .back-link:hover {
   background-color: #0c450d;
 }
+
+/* CSS styles sheet for construction */
+
+.more-about-construction h2 {
+  text-align: center;
+  font-size: 4.2rem;
+}
+.more-about-construction {
+  margin-top: 5%;
+}
+.more-about-construction p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: left;
+}
+.more-about-construction a {
+  margin-bottom: 20%;
+}
+
 @media (min-width: 500px) and (max-width: 768px) {
   header nav a {
     font-size: 1.4rem;
@@ -728,7 +768,12 @@ table td {
   .Hero h1 {
     font-size: 5.2rem;
   }
-
+  .card-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+  }
   .page-contact-us .welcome h2 {
     font-size: 5.2rem;
     color: #e9e9e9;
@@ -838,7 +883,12 @@ table td {
     margin-left: 2%;
     margin-right: 2%;
   }
-
+  .card-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+  }
   .pre-order p {
     color: #e9e9e9;
     column-count: 2;
@@ -851,14 +901,6 @@ table td {
   .end-of-page {
     font-size: 3rem;
   }
-
-  /* .map_container {
-    width: 450px;
-    height: auto;
-    align-items: center;
-    margin-left: 15%;
-    margin-top: 4%;
-  } */
 
   .map_container {
     display: flex;
